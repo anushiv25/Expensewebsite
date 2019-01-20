@@ -1,0 +1,46 @@
+body{
+	background:url(https://pixabay.com/get/ea34b6082cf5053ecd1f4404e54e479ee174ffd41cb5164992f9c07cae/pattern-3177414.png);	
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.con{
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left:35%;
+	margin-right:35%;
+	margin-top: 5%;
+	border: 1px solid black;
+	text-align:center;
+	height:auto;
+	width:30%;
+	border-radius: 5px;
+	color:white;
+	font-size:20px;
+}
+button{
+	margin:0px;
+	border:none;
+	background-color:grey;
+	color:black;
+}
+h1{
+	color:#ffffff;
+	margin-top: 1%;
+	font-family: "The Times Roman";
+	font-weight: 3000;
+}
+p input{
+	margin-right: 2.5px;
+	margin-left: 2.5px;
+}
+.navbar-default{
+	background:black;
+}
+#footer{
+	color:white;
+	text-align:center;
+	margin-top:250px;
+}

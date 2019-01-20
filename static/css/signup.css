@@ -1,0 +1,50 @@
+body{
+  background:url(https://pixabay.com/get/ea34b70c21f5023ed1534705fb094797e075e3dd1bb20c4090f4c671afe8b1bddd/tree-3163913_1920.jpg);  
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.con{
+  background-color:black;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left:35%;
+  margin-right:35%;
+  margin-top: 5%;
+  border: 1px solid black;
+  text-align:center;
+  height:auto;
+  width:30%;
+  border-radius: 5px;
+  color:white;
+  font-size:20px;
+}
+button{
+  margin:0px;
+  border:none;
+  background-color:grey;
+  color:black;
+}
+h1{
+  color:#ffffff;
+  margin-top: 1%;
+  font-family: "The Times Roman";
+  font-weight: 3000;
+}
+p{
+  font-family: "The Times Roman";
+  margin-left:10px;
+  text-align:left;
+}
+p input{
+  margin-right: 10px;
+  float:right;
+}
+#footer{
+  color:black;
+  text-align:center;
+}
+.navbar-default{
+  background:black;
+}

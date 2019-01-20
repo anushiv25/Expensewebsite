@@ -1,0 +1,58 @@
+body{
+	background:url(https://pixabay.com/get/eb33b10621f3093ed1534705fb094797e075e3dd1bb20c4090f4c671afe9bcb1dd/nature-2609978_1920.jpg);	
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.con{
+	background-color:black;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left:35%;
+	margin-right:35%;
+	margin-top: 5%;
+	border: 1px solid black;
+	text-align:center;
+	height:auto;
+	width:30%;
+	border-radius: 5px;
+	color:white;
+	font-size:20px;
+}
+button{
+	margin:0px;
+	border:none;
+	background-color:grey;
+	color:black;
+}
+h1{
+	color:#ffffff;
+	margin-top: 1%;
+	font-family: "The Times Roman";
+	font-weight: 3000;
+}
+p{
+	margin-left:10px;
+	text-align:left;
+	font-family: "The Times Roman";
+}
+p input{
+	margin-right: 10px;
+	float:right;
+}
+#content1{
+	margin-top:150px;
+	text-align:center;
+	font-weight: 700;
+	font-size:20px;
+
+}
+#footer{
+	color:white;
+	text-align:center;
+	margin-top:150px;
+}
+.navbar-default{
+	background:black;
+}

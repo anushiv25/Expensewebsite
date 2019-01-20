@@ -1,0 +1,20 @@
+body{	background-attachment: fixed;
+	background:url(https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80);
+	background-size:cover;
+	background-position:center;
+
+}
+.navbar-default{
+	background:black;
+}
+#content1{
+	margin-top:150px;
+	text-align:center;
+	font-weight: 700;
+	font-size:20px;
+
+}
+#footer{
+	text-align:center;
+	margin-top:125px;
+}
