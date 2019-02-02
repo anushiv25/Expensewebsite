@@ -1,5 +1,7 @@
 body{
-	background-color:#C0C0C0;
+	background-image: url("/static/img/about.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
 }
 .navbar-default{
 	background:black;
