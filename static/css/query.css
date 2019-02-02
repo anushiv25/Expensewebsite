@@ -40,6 +40,10 @@ p{
 p input{
 	margin-right: 10px;
 	float:right;
+	color:black;
+}
+textarea{
+	color:black;
 }
 #content1{
 	margin-top:150px;
