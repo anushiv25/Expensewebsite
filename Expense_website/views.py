@@ -30,5 +30,7 @@ def signup(request):
 				user=User.objects.create_user(request.POST['name'], email=request.POST['email'], password=request.POST['password'])
 				auth.login(request, user)
 				return redirect('/index')
+		else:	
+			return render(request,'signup.html',{'error':'Password does not Matched'})	
 	else:	
 		return render(request,'signup.html',{})
