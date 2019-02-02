@@ -65,17 +65,22 @@
 	<textarea rows="5" cols="40"></textarea>MESSAGE BOX
 	</div>
 </div>-->
-<div class="con">
-  <h1>SIGN UP</h1>
-  <p>
-  UserName :<input type="text" name="name" id="name" size="20%"><br><br>
-  Email :<input type="text" name="email" id="Email" size="20%"><br><br>
-  Password :<input type="text" name="password" size="20%"><br><br>
-  Confirm Password :<input type="text" name="password1" size="20%"><br><br>
-  <button type="submit" class="btn logIn">Sign Up</button>
-  <br>{{ error }}
-</p>
-</div>
+<form method="POST" action="">
+  {{ error }}<br>
+  {% csrf_token %}
+  Username: <br>
+  <input type="text" name="name">
+  <br><br>
+  Email: <br>
+  <input type="text" name="email">
+  Password: <br>
+  <input type="Password" name="password">
+  Confirm Password: <br>
+  <input type="Password" name="password1">
+  <br><br>
+  <input class="button" type="submit" value="Sign Up!">
+</form>
+
 <div id="footer">
 <b>&copy; 2018 Enthusiast Inc.
 All rights reserved</b>
