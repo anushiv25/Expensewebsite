@@ -1,9 +1,8 @@
 body{
-	background:url(https://pixabay.com/get/e837b90f2df7093ed1534705fb094797e075e3dd1bb20c4090f4c671afe8b3bcd9/notebook-1280538_1920.jpg);
-	background-position: center;
+	background-image: url("/static/img/index.jpg");
 	background-size:cover;
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 1375px 625px;
 }
 #content{
 text-align:center;
@@ -14,6 +13,7 @@ html{
 }
 hr{
 	width:400px;
+	border-color:black;
 }
 h1{
 	font-weight: 700;

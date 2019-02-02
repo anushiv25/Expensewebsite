@@ -1,5 +1,5 @@
 body{
-  background:url(https://pixabay.com/get/ea34b70c21f5023ed1534705fb094797e075e3dd1bb20c4090f4c671afe8b1bddd/tree-3163913_1920.jpg);  
+  background:url("/static/img/signup.jpg");  
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -43,7 +43,7 @@ p input{
   color:black;
 }
 #footer{
-  color:black;
+  color:white;
   text-align:center;
 }
 .navbar-default{
