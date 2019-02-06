@@ -25,6 +25,7 @@ button{
   border:none;
   background-color:grey;
   color:black;
+  outline: none;
 }
 h1{
   color:#ffffff;
@@ -48,4 +49,8 @@ p input{
 }
 .navbar-default{
   background:black;
+}
+.con a{
+  color:black;
+  text-decoration: none;
 }
