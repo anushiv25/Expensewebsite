@@ -19,6 +19,10 @@ def query(request):
 
 def signin(request):
 	return render(request,'signin.html',{})
+def data(request):
+	return render(request,'data.html',{})
+def common(request):
+	return render(request,'common.html',{})
 
 def signup(request):
 	if request.method == 'POST':
